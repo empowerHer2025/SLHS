@@ -24,11 +24,11 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
+      className={`fixed   top-0 left-0 right-0 z-50 transition-all duration-500 ${
         isScrolled ? "glass-card py-3" : "bg-transparent py-4"
       }`}
     >
-      <div className="max-w-6xl mx-auto px-4">
+      <div className="w-[80%] mx-auto ">
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center">
             <div className="text-xl font-bold gradient-text">Soft Life, Hard Skills</div>
