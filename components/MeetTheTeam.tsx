@@ -66,7 +66,7 @@ const MeetTheTeam = () => {
             >
               <div className="flex items-start gap-6 mb-8">
                 <div
-                  className={`w-16 h-16 bg-gradient-to-br ${member.color} rounded-2xl flex items-center justify-center shadow-xl group-hover:scale-110 group-hover:rotate-6 transition-all duration-500 text-white`}
+                  className={`w-16 h-16 bg-gradient-to-br ${member.color} rounded-2xl flex items-center justify-center shadow-xl group-hover:scale-110 group-hover:rotate-6 transition-all duration-500 text-primary`}
                 >
                   {member.icon}
                 </div>
@@ -102,7 +102,7 @@ const MeetTheTeam = () => {
           <div className="glass-card rounded-4xl p-16 shadow-2xl">
             <div className="flex justify-center mb-8">
               <div className="w-20 h-20 bg-gradient-to-br from-primary via-secondary to-accent rounded-3xl flex items-center justify-center shadow-xl floating-animation">
-                <Sparkles className="w-10 h-10 text-white" />
+                <Sparkles className="w-10 h-10 text-primary" />
               </div>
             </div>
             <h3 className="text-4xl md:text-5xl font-bold text-foreground mb-8 text-balance">
