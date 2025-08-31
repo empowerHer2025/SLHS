@@ -94,13 +94,14 @@ const Hero = () => {
         </div>
 
         <div className="space-y-6">
-          <button
-            onClick={() => document.getElementById("rsvp")?.scrollIntoView({ behavior: "smooth" })}
-            className="group bg-gradient-to-r from-primary via-secondary to-accent text-primary-foreground px-12 py-4 rounded-2xl font-semibold text-lg hover:shadow-lg transform hover:scale-105 transition-all duration-300 flex items-center gap-3 mx-auto"
-          >
-            <span>Reserve Your Spot</span>
-            <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
-          </button>
+        <button
+  onClick={() => document.getElementById("rsvp")?.scrollIntoView({ behavior: "smooth" })}
+  className="group bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white px-12 py-4 rounded-2xl font-semibold text-lg hover:shadow-lg transform hover:scale-105 transition-all duration-300 flex items-center gap-3 mx-auto"
+>
+  <span>Reserve Your Spot</span>
+  <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
+</button>
+
 
           <div className="flex items-center justify-center gap-4">
             <span className="text-sm text-muted-foreground">Follow us:</span>
@@ -123,7 +124,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="absolute top-[75%] left-1/2 transform -translate-x-1/2">
+        <div className="hidden md:block absolute md:top-[75%] left-1/2 transform -translate-x-1/2">
           <div className="flex flex-col items-center gap-2">
             <div className="text-muted-foreground text-xs font-medium">Scroll to explore</div>
             <div className="w-6 h-10 border border-muted-foreground/30 rounded-full flex justify-center">
