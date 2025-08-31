@@ -19,7 +19,7 @@ const Hero = () => {
 
       <div className="relative z-10 text-center max-w-5xl mx-auto">
         <div className="flex items-center justify-center gap-8 mb-12">
-          <div className="group flex items-center gap-3 glass-card px-6 py-3 rounded-2xl hover:shadow-lg transition-all duration-300">
+          <div className="group flex items-center gap-3 glass-card px-3 py-3 rounded-2xl hover:shadow-lg transition-all duration-300">
             <Image
               src="./wtm.jpg"
               alt="Women Techmakers"
@@ -27,7 +27,7 @@ const Hero = () => {
               height={62}
               className="rounded-xl"
             />
-            <div>
+            <div className="md:block hidden ">
               <div className="font-semibold text-foreground text-sm">Women Techmakers</div>
               <div className="text-xs text-muted-foreground">Google Developer Group</div>
             </div>
@@ -35,7 +35,7 @@ const Hero = () => {
 
           <div className="text-muted-foreground text-2xl font-light">×</div>
 
-          <div className="group flex items-center gap-3 glass-card px-6 py-3 rounded-2xl hover:shadow-lg transition-all duration-300">
+          <div className="group  flex items-center gap-3 glass-card px-3 py-3 rounded-2xl hover:shadow-lg transition-all duration-300">
             <Image
               src="./emp.jpg"
               alt="EmpowerHer"
@@ -43,7 +43,7 @@ const Hero = () => {
               height={92}
               className="rounded-xl"
             />
-            <div>
+            <div className="md:block hidden ">
               <div className="font-semibold text-foreground text-sm">EmpowerHer</div>
               <div className="text-xs text-muted-foreground">Tech Community</div>
             </div>
